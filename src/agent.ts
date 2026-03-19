@@ -17,7 +17,7 @@ export const rootAgent = new LlmAgent({
 Available capabilities:
 - read_file: Read any file from the filesystem
 - bash: Execute safe shell commands
-- Skill: Execute skills from .claude/skills/ directory
+- Skill: Execute skills from skills/ directory
 
 The skills system demonstrates meta-tool architecture:
 1. Skills are discovered from YAML files

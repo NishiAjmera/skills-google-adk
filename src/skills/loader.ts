@@ -17,7 +17,7 @@ import { SkillParseError, SkillValidationError } from './types.js';
 export class SkillLoader {
   private skillsDirectory: string;
 
-  constructor(skillsDirectory: string = '.claude/skills') {
+  constructor(skillsDirectory: string = 'skills') {
     this.skillsDirectory = skillsDirectory;
   }
 
