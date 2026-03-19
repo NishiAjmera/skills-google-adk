@@ -1,0 +1,31 @@
+{
+  "name": "skills-google-adk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/agent.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "npx adk web",
+    "run": "npx adk run src/agent.ts",
+    "start": "npx adk run dist/agent.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@google/adk": "^0.5.0"
+  },
+  "devDependencies": {
+    "@google/adk-devtools": "^0.5.0",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^25.5.0",
+    "js-yaml": "^4.1.1",
+    "typescript": "^5.9.3",
+    "zod": "^4.3.6"
+  }
+}
